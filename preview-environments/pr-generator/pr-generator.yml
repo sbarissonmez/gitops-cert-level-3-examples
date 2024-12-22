@@ -12,8 +12,7 @@ spec:
         owner: sbarissonmez
         repo: gitops-cert-level-3-examples
       labels:
-        include:
-          - preview-ready
+      - preview-ready
       requeueAfterSeconds: 180
   template:
     metadata:
